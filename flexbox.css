@@ -1,0 +1,106 @@
+
+body {
+  margin: 0;
+  padding: 20px 0;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta {
+  background: white;
+  width: 320px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.perfil-header {
+  margin-bottom: 15px;
+}
+
+.perfil-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.perfil-header h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+
+.bio {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+.estadisticas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.estadisticas div {
+  text-align: center;
+}
+
+.estadisticas span {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botones button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.botones .seguir {
+  background: #4CAF50;
+  color: white;
+}
+
+.botones .notificaciones {
+  background: #f32121;
+  color: white;
+}
+
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.galeria .tarjeta {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.galeria img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
